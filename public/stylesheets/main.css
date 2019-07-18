@@ -1,0 +1,29 @@
+
+
+.container{
+    position: fixed;
+
+    left:15vw;
+    height: 80vh;
+    width: 65%;
+    min-width: 50px;
+    background-color: lightskyblue;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Card {
+    width: 35vw;
+    hight: 200px;
+    top: 30px;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    border-radius: 10px;
+    background-color: palegreen;
+    box-shadow: 0 5px 3px 0 #ebebeb;
+}

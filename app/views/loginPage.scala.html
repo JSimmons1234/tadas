@@ -1,0 +1,14 @@
+@(loginForm: Form[Login])(implicit messages: Messages)
+@main("loginPage"){
+    @helper.form(routes.Application.createProfile()){
+        @helper.inputText(
+            loginForm("username"),
+            '_label -> "Username",
+            '_showConstraints -> false)
+        @helper.inputPassword(
+            loginForm("password"),
+            '_label -> "Password",
+            '_showConstraints -> false)
+        <button type="submit">Login</button>        )
+    }
+}
